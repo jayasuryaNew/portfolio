@@ -4,12 +4,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "build": "vite build",
-  "dev": "vite"
-},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "dev": "vite"
+  },
   "dependencies": {
     "react": "^19.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",

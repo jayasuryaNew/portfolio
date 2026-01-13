@@ -7,15 +7,23 @@
 .hero img{
     margin-top: 50px;
     width: 300px;
-    height: 350px;
-    border-radius: 100%;
-    
+    height: 300px;
+    border-radius: 50%;   
+}
+.backg{
+    min-height: 100vh;
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    background-position:center ;
+     background-repeat: no-repeat;
+     border-radius: 50px;
 }
 .hero h1{
     text-align: center;
     width: 90%;
     font-size: 90px;
     font-weight: 600;
+    margin-top: 100px;
 }
 .hero h1 span{
     background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
@@ -28,6 +36,9 @@
     align-items: center;
     font-size: 24px;
     line-height: 40px;
+}
+.d span{
+     background: blue
 }
 .hero-action{
     display: flex;
